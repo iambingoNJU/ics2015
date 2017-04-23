@@ -72,8 +72,7 @@ static struct {
 	{ "si", "Execute specific number of instructions determined by argument. \n\tExample: si [n] #execute si command for n times(Default=1).", cmd_si },
 	{ "info", "To show information about registers or watchpoints according to argument.\n\tExample: info r #show information about registers.\
 			  \n\t         info w #show information about watchpoints.", cmd_info },
-	{ "x", "To show information of memory in hexidecimal.\n\tExample: x n expr #calculate the result of expr, and then show n bytes memory information"
-		"with the result as begining address in hex.", cmd_x },
+	{ "x", "To show information of memory in hexidecimal.\n\tExample: x n expr #calc expr as address, then dump memory", cmd_x },
 	{ "p", "To calculate a expression.",cmd_p},
 	{ "w", "To create a new watchpoint.",cmd_w},
 	{ "d", "To delete a watchpoint.",cmd_d},
