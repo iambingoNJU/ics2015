@@ -13,8 +13,8 @@ void init_ddr3();
 void cache1_init();
 void cache2_init();
 void TLB_init();
-void init_device();
-void init_sdl();
+//void init_device();
+//void init_sdl();
 
 FILE *log_fp = NULL;
 
@@ -43,8 +43,8 @@ void init_monitor(int argc, char *argv[]) {
 	/* Initialize the watchpoint link list. */
 	init_wp_list();
 
-	init_device();
-	init_sdl();
+	//init_device();
+	//init_sdl();
 
 	/* Display welcome message. */
 	welcome();
